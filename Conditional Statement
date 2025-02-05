@@ -1,0 +1,18 @@
+## IF 
+
+if 4<3:
+    print('komal')            #as condition failed it will ingnore the block 
+    print('sopan')
+    print('shelar') 
+    
+print("Invalid")  
+
+
+#IF-ELSE 
+
+ATM = 8970  
+Pin = eval(input("enter your Pin"))
+if Pin==ATM:
+    print("enter the withdrawl amount") 
+else:
+    print("Pin Mismatched")
