@@ -1,4 +1,5 @@
 ## IF 
+
 if 4<3:
     print('komal')            #as condition failed it will ingnore the block 
     print('sopan')
