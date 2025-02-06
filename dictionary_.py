@@ -43,14 +43,3 @@ car["carb"]
 
 car["carb"][1]
 
-car[24][0]                #cant do a indexing on nested set
-                        # cant do indexing on int , float, bool ----> error shown calles type error
-
-car["k"]                       #in case of dict if key is not available will show a keyerror
-
-"""- error raised in list, tuple , string --->   **index error**
-- error raised in dict(key unavailable) --->  **key error**
-- cant do indexing on int , float, bool ----> **type error**
-"""
-
-car.get(24)                  #another method to do indexing
