@@ -53,6 +53,8 @@ elif Aggregate>65:
 else:
     print("Eligible for Re-exam")
 
+-------------------------------------------------------------------------------------------------------------------------------------
+
 #write a program to print grades of student, if marks>90 as a A grade ,if marks>70 as grade B, else Failed
 
 marks = eval(input("Grades receieved:"))
@@ -66,6 +68,7 @@ elif marks>70:
 
 else:
     print("Failed")
+------------------------------------------------------------------------------------------------------------------------------------
 
 prompt = eval(input("assignments done : 0,1,2,3 :"))
 
@@ -98,7 +101,6 @@ if entered_pin == pin:
         print("transaction proceed")
     else:
         print("insufficient balance")
-
 
 else:
     print("Pin doesn't matched")
