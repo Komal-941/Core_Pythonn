@@ -4,7 +4,7 @@
 **empty dict**
 """
 
-d= dict()
+d= dict()                 # empty Dict
 print(d)
 
 d = {}
